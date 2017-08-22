@@ -1,0 +1,29 @@
+{
+  "title": "Express Models and Controllers",
+  "type": "lesson",
+  "name": "node-express-controllers-lesson",
+  "competencies": "Express, Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.generalassemb.ly/wdi-nyc-kestrel/node-express-controllers-lesson.git"
+  },
+  "author": "Vince Abruzzo",
+  "contributors": [
+    {
+      "name": "J Silverstein",
+      "city": "NYC"
+    },
+    {
+      "name": "Roy Vanegas",
+      "city": "NYC"
+    }
+  ],
+  "package validator": "http://package-json-validator.com",
+  "license": "ISC"
+}
