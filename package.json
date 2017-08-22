@@ -1,17 +1,13 @@
 {
-  "title": "Express Models and Controllers",
-  "type": "lesson",
-  "name": "node-express-controllers-lesson",
-  "competencies": "Express, Backend",
+  "name": "delorean-movies-final",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://git.generalassemb.ly/wdi-nyc-kestrel/node-express-controllers-lesson.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "debugger": "DEBUG=*:* npm run dev"
   },
   "author": "Vince Abruzzo",
   "contributors": [
@@ -24,6 +20,14 @@
       "city": "NYC"
     }
   ],
-  "package validator": "http://package-json-validator.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "pg-promise": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
